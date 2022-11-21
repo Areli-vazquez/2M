@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro:300,400,500');
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+	color:#666;
+}
+	a:hover{
+		color:#999;
+	}
+p{
+	line-height: 2em;
+	margin:0 0 20px;
+	text-align: center;
+}
+
+.wrap{
+	max-width: 600px;
+	margin:150px auto;
+}
+
+.type-wrap{
+	margin:10px auto;
+	padding:20px;
+	background:#f0f0f0;
+	border-radius:5px;
+	border:#CCC 1px solid;
+}
+
+.links{
+	margin:20px 0;
+	font-size: 0.75em;
+	text-align: center;
+}
+
+.container{
+	height: 100%;
+	width: 100%;
+}
+
+html body{
+	background-color: #272822;
+}
+
+#heading{
+	height: 15%;
+}
+
+#text-row{
+	height: 100%;
+}
+
+#text-pad{
+	height: 75%;
+	padding: 10px;
+	background-color: #272822;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: #F8F8F2;
+}
+
+.plain-text{
+	color: #F8F8F2;
+}
+
+.keyword, .operator{
+	color: #F92672;
+}
+
+.classname{
+	color: #A6E22E;
+}
+
+.declaration-type, .built-in-class{
+	color: #66D9EF;
+	font-style: italic;
+}
+
+.input-para{
+	color: #FD971F;
+	font-style: italic;
+}
+
+.string{
+	color: #FFE792;
+}
+
+.constant{
+	color: #AE81FF;
+}
+
+.typed-cursor{
+	opacity: 1;
+	font-weight: 100;
+	animation: blink 0.7s infinite;
+}
+
+
+.typed-fade-out{
+	opacity: 0;
+	animation: 0;
+	transition: opacity .25s;
+}
